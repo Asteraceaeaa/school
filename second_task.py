@@ -10,8 +10,8 @@ second = int(input("Enter second number: "))
 
 if second:
     if first % second == 0:
-        print(f"Остаток от деления {first} на 1{second} равен нулю.")
+        print(f"Остаток от деления {first} на {second} равен нулю.")
     else:
-        print(f"Остаток от деления {first} на 1{second} не равен нулю.")
+        print(f"Остаток от деления {first} на {second} не равен нулю.")
 else:
     pass
