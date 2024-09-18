@@ -8,8 +8,7 @@ first = 0; secnd = 0
 for mounth in range(1, mounths + 1):
     first += rashodi - stipendia
     secnd += rashodi_with_inflation - stipendia
-    print(rashodi_with_inflation)
-    print((mounth + 1) % 2 == 1)
+
     if (mounth + 1) % 2 == 1: #С учетом того, что в первый месяц повышение цен отстуствует
         rashodi_with_inflation *= base_inflation
     else:
