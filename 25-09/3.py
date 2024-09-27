@@ -1,4 +1,4 @@
-n = 6
+n = int(input("Enter n => "))
 cnt = 0
 for i in range(0, n + 1, 2):
     cnt += 1
