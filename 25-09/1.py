@@ -1,9 +1,7 @@
-cd .
+n = 20000
 
+#Выясняет длину числа
 
-
-git
-�ыясняет длину числа
 def length(n):
     prev = 0
     for i in range(2, 1000):
@@ -13,9 +11,23 @@ def length(n):
             break
         else:
             prev = this
-
     return length
 
-for i in range(100, n + 1):
-    for j in range(2, length(i) + 1):
-        print(j)
+
+
+for i in range(10000, n + 1):
+    if length(i) > 3:
+        if (i % 10 == i // 1000 and n % 100 // 10 == n % 1000 // 100):
+            print(i)
+    else:
+        if i % 10 == i // 100:
+            print(i)
+
+
+
+
+
+
+
+
+"""(i % 10 == i // 100) or """
