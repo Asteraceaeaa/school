@@ -9,4 +9,6 @@ for i in range(int(1e6)):
         count += 1
         if (sum(nums_l) + sum(nums_r)) == 13:
             therteen_count += 1
+
+#сумма цифр в "счастливом" билете всегда четна
 print(f"2.1: {count} \n2.2: {therteen_count}")
