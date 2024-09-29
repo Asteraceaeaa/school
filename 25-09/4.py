@@ -1,5 +1,5 @@
 
- = 10
+n = 10
 exchange_rate = int(input("Enter initial exchange rate: "))
 change_rate = int(input("Enter percentage of changes in %(from 1 to 100): "))
 
