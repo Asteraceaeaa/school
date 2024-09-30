@@ -1,7 +1,7 @@
 n = 20000
 
 #Выясняет длину числа
-
+d = 3
 def length(n):
     prev = 0
     for i in range(2, 1000):
@@ -15,8 +15,9 @@ def length(n):
 
 
 
-for i in range(10000, n + 1):
-    if length(i) > 3:
+for i in range(1000, n + 1):
+    l = length()
+    if n > 3:
         if (i % 10 == i // 1000 and n % 100 // 10 == n % 1000 // 100):
             print(i)
     else:
