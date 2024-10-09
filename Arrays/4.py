@@ -7,3 +7,4 @@ for i in range(10):
 for i in range(len(s)):
     s.pop(0)
 print(s)
+#or s.clear()
