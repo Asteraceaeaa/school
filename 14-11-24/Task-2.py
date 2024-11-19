@@ -7,14 +7,15 @@
 
 """
 
-"""
-#Generate data
-from random import randint
 
-with open("./files/Task-2/data.txt", 'w') as f:
-    for _ in range(100):
-        f.write(f"{randint(0, 100)} ")
-"""
+#Generate data
+
+# from random import randint
+
+# with open("./files/Task-2/data.txt", 'w') as f:
+#     for _ in range(100):
+#         f.write(f"{randint(0, 100)} ")
+
 
 
 with open("./files/Task-2/data.txt", 'r') as data:
