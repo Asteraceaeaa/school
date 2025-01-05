@@ -1,14 +1,10 @@
-import time
-
-second = 60
-
-while second:
-    timer = f'{second:02d}'
-    print(timer,end='\r')
-    time.sleep(1)
-    second-=1
-    if second == 50:
-        print("осталось 50 секунд")
-print("0.0")
-
-        
+c = [ int(x) for x in input().split(" ")]
+print(c)
+# def huy(a,b):
+#     nikita=[]
+#     for i in a:
+#         for j in b:
+#             if i == j:
+#                 nikita.append(i)
+#     return nikita
+# print(huy(c,d))
