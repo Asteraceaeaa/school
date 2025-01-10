@@ -25,7 +25,7 @@
 #     print('Video downloaded successfully!')
 # except: 
 #     print("Some Error!")
-path = "/home/asteracea/Desktop/playlist.m3u"
+path = "/home/asteracea/Desktop/6 день. Женское здоровье.m3u"
 save_path = "/home/asteracea/Desktop/output"
 with open(path) as f:
     links = f.read().split("\n")
