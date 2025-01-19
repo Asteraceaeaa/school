@@ -1,10 +1,7 @@
-c = [ int(x) for x in input().split(" ")]
-print(c)
-# def huy(a,b):
-#     nikita=[]
-#     for i in a:
-#         for j in b:
-#             if i == j:
-#                 nikita.append(i)
-#     return nikita
-# print(huy(c,d))
+from random import randint
+num = randint(1,100000000)
+for i in range(1,100000000):
+    if i == num:
+        print(i)
+    else:
+        continue
